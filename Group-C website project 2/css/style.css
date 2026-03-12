@@ -1,0 +1,264 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.headline {
+    height: 45px;
+    background-color: #FFE52A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+}
+
+p {
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #0011cd;
+    margin: 0;
+}
+
+
+.logo {
+    height: 150px;
+    width: 75%;
+    margin-left: 13%;
+}
+
+.menu {
+    background-color: #0B3D91;
+    padding: 1vh 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0vh 12vh;
+}
+
+.menu a:hover {
+    color: #817676;
+}
+
+.hero {
+    min-height: 80vh;
+    background:
+        linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+        url("../img/Himalaya Sec School 1.jpeg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
+}
+
+.hero-desc{
+    color: #FFE52A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    flex-basis: 31%;
+    background: #eef1f7;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0px;
+    font-size: 25px;
+}
+
+.col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0B3D91;
+}
+
+.features {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.feature-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.features p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #444;
+    margin-left: 0;
+}
+
+.student-name {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #0B3D91;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+}
+
+.feature-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.principal-section {
+    width: 85%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+}
+
+.message-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.principal-img {
+    flex-basis: 40%;
+}
+
+.principal-name {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.principal-name h3 {
+    color: #0B3D91;
+    margin: 5px 0;
+}
+
+.message-top-text {
+    flex-basis: 60%;
+}
+
+.message-top-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-left: 0;
+    color: #333;
+}
+
+.aims-list {
+    margin-bottom: 20px;
+    font-family: 'Calibri', sans-serif;
+    font-size: 18px;
+}
+
+.aims-list li {
+    margin-bottom: 10px;
+    color: #0B3D91;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #0B3D91;
+    color: #ffffff;
+    padding: 60px 0 20px 0;
+    margin-top: 50px;
+    font-family: 'Calibri', 'sans-serif';
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    gap: 30px;
+}
+
+.footer-box {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-box h3 {
+    color: #FFE52A;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: 2px solid #FFE52A;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-box p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.footer-links a:hover {
+    color: #FFE52A;
+    padding-left: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom p {
+    font-size: 13px !important;
+    color: #cccccc !important;
+}
